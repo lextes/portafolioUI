@@ -1,0 +1,456 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.containerGloblal{
+  margin-left: 70px;
+  margin-right: 35px;
+}
+
+
+.back {
+  background: #1771FF;
+  margin-top: auto;
+}
+
+.logo{
+  margin: 5px;
+  margin-left: 70px;
+  width: 25px;
+  height: 25px;
+}
+
+.textTest{
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.textTest2{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.textTest3{
+  font-weight: 400;
+  font-size: 18px;
+  color: #4F4F4F;
+}
+
+.icon-theme{
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  width:20px;
+  height: 20px:
+}
+
+
+.rowMenu{
+  margin-top: 20px;
+}
+
+
+.titulo{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 6px;
+  vertical-align: middle;
+}
+
+.titular{
+  margin-top: 30px;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.topButton{
+  margin-top: 30px;
+}
+
+.shadow{
+  -webkit-box-shadow: -1px 13px 23px -9px rgba(122,122,122,0.67);
+  -moz-box-shadow: -1px 13px 23px -9px rgba(122,122,122,0.67);
+  box-shadow: -1px 13px 23px -9px rgba(122,122,122,0.5);
+  margin-top: -30px;
+  margin-right: 15px;
+  }
+
+.separador{
+     /* Rotate div */
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    opacity:.4;
+    width: 500px;
+    height: 50px;
+}
+
+.center{
+  align-items: center;
+}
+
+/* Para diseniar los marcos */
+
+.contenedor2{
+  display: inline-block;
+  align-content: space-around;
+  width: 310px;
+  height: 250px;
+  margin-bottom: 50px;
+  margin: 9px;
+  }
+
+#marco1{
+  background: #fff;
+  color: white;
+  position: relative;
+}
+
+.textMarco1{
+  margin-left: 10px;
+  position: absolute;
+}
+
+.imageDer{
+  margin-left: 80px;
+}
+.rectaSup{
+  margin-left: 16px;
+  margin-bottom: 0px;
+  width: 110px;
+  height: 30px;
+}
+
+.textTitulo{
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 17px;
+  color: #4F4F4F;
+}
+.clave{
+  font-weight: 400;
+  font-size: 13px;
+  color: #959293;
+}
+
+.tercerTitulo{
+  font-weight: 400;
+  font-size: 13px;
+  color: #e91d63; 
+  margin-left: 30px;
+}
+
+.tercerTituloB{
+  margin-top: -26px;
+  margin-right: 70px;
+  font-size: 11px;
+  color: #959293;
+}
+.tercerTituloC{
+  margin-left: 40px;
+  margin-top: -45px;
+  font-weight: 400;
+  color: #959293; 
+}
+
+.flagSpain{
+  margin-right: 200px;
+  margin-top: -50px;
+  width: 30px;
+  height: 20px;
+}
+
+.circulos{
+  margin-left: 220px;
+  margin-top: -55px;
+  width: 35px;
+  height: 15px;
+}
+
+.upPleca{
+  margin-top: -50px;
+  width: 220px; 
+  height: 5px;
+}
+
+.imageCirculos {
+  margin-right: 380px:
+  margin-top:180px;
+  width: 30px; 
+  height:10px;
+ }
+ .letraCirculo{
+  margin-left: 230px;
+  margin-top: -55px;
+  width: 20px;
+  height: 20px;
+ }
+ .cuartoTitulo{
+  font-weight: 700;
+  font-size: 16px;
+  color: #4F4F4F;
+  margin-top: 0px;
+ }
+ .quintoTitulo{
+  font-weight: 400;
+  font-size: 14px;
+  color: #4F4F4F;
+  margin-top: -5px;
+ }
+ .sextoTitulo{
+  font-weight: 700;
+  font-size: 14px;
+  color: #959293;
+  margin-top: -5px;
+ }
+ .septimoTitulo{
+  font-weight: 700;
+  font-size: 14px;
+  color: #4F4F4F;
+  margin-top: 0px;
+ }
+.rectaInferior{
+  width: 160px;
+  height: 40px;
+}
+
+
+.btn-ttc,
+.btn-ttc:hover,
+.btn-ttc:active {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #E91D63;
+}
+
+.btn-ttcG,
+.btn-ttcG:hover,
+.btn-ttcG:active {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #00ca69;
+}
+
+.btn-ttcB,
+.btn-ttcB:hover,
+.btn-ttcB:active {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #54a0f7;
+}
+
+.btn-ttcP,
+.btn-ttcP:hover,
+.btn-ttcP:active {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #9343ca;
+}
+
+.octavoTitulo{
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.novenoTitulo{
+  font-weight: 400;
+  font-size: 14px;
+  color: #959293;
+  margin-top: 20px;
+}
+
+.iconShare{
+  margin-top:-60px;
+  margin-left: 170px;
+  width: 20px;
+  height: 20px;
+}
+
+.iconPapers{
+  margin-top: -100px;
+  margin-left: 210px;
+  width: 25px;
+  height: 25px;
+}
+
+
+/* para los cuadros de arriba */
+
+a.nounderline:link{
+	text-decoration:none;
+}
+
+.contenedor{
+  align-content: space-around;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 50px;
+  margin: 9px;
+
+	-webkit-transition:height .5s;
+}
+
+.contenedor3{
+  display: inline-block;
+  align-content: space-around;
+  width: 310px;
+  height: 250px;
+  margin-top: 300px;
+}
+
+.contenedor4{
+  display: inline;
+  align-content: center;
+  width: 300px;
+  height: 250px;
+  margin-left: 5px;
+  
+}
+
+#uno{
+  background-color: rgb(233,183,133);
+  
+}
+
+div#dos{
+	background-color: rgb(233,183,133);
+}
+
+div#tres{
+	background-color: rgb(142,196,229);
+}
+
+div#cuatro{
+	background-color: rgb(142,196,229);
+}
+
+div#cinco{
+	background-color: rgb(143,232,177);
+}
+
+div#seis{
+	background-color: rgb(143,232,177);
+}
+
+div#siete{
+	background-color: rgb(235,152,202);
+}
+
+div#ocho{
+	background-color: rgb(235,152,202);
+}
+
+.tituloTex {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 14px;
+  margin-left: 0px;
+  color: #000;
+}
+
+.numCentrales{
+  margin-top: -10px;
+  font-size: 40px;
+  
+}
+
+.menuCuadros{
+  margin-top: -60px;
+  margin-left: 110px;
+  width: 10px;
+  height: 20px;
+}
+.imaGrap{
+  margin-top: -15px;
+  margin-left: -15px;
+  width: 145px;
+  height: 50px;
+}
+
+.imaGrapB{
+  margin-top: 10px;
+  margin-left: -12px;
+  width: 145px;
+  height: 80px;
+}
+
+.circuloGraf{
+  margin-top: -205px;
+  margin-left: 39px;
+  width: 60px;
+  height: 60px;
+}
+
+.grafica4{
+  margin-left: 20px;
+  margin-top: -20px;
+  width: 75px;
+  height: 75px;
+}
+.circuloIzq{
+  margin-top: -10px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.circuloDer{
+  margin-top: -90px;
+  margin-left: 90px;
+  width: 20px;
+  height: 20px;
+}
+
+.numGraf{
+  font-size: 9px;
+  margin-left: -5px;
+}
+
+.numGrafB{
+  font-size: 9px;
+  margin-left: 85px;
+  margin-top: -40px;
+}
+
+.numCentralesB{
+  font-weight: 700;
+  font-size: 20px;
+}
+.numGrafMxn{
+  font-size:12px;
+  margin-top: -10px;
+}
+
+.imaGrap4{
+  margin-left: -15px;
+  margin-top: -10px;
+  width: 150px;
+  height: 40px;
+}
+
+.grafica5{
+  margin-top: -25px;
+  margin-left: -17px;
+  width: 152px;
+  height: 100px;
+
+}
+.imaGrap8{
+  margin-top: -9px;
+  margin-left: -17px;
+  width: 152px;
+  height: 100px;
+
+}
